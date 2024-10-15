@@ -1,0 +1,103 @@
+#logo{
+top:50%;
+left: 0%;
+}
+
+ul{
+text-align: center;
+}
+
+div  li button{
+background-color: transparent; 
+border: 0; 
+font-size: 13px; ; 
+list-style: none ;
+float:left;
+line-height: 180px;
+width: 150px;
+text-align: center;
+margin: 20px 40px;
+} 
+
+
+ol, ul{
+list-style: none;
+}
+
+#logo>img{
+position:absolute;
+width: 200px;;
+height:auto;
+top: 40px;
+left: 60px;
+} 
+
+#main1>img{
+position: absolute;
+width:auto;
+top: 150px;
+left:0px;
+}
+
+
+
+
+table{
+position:absolute;
+width:1200px;
+height: 600 px;
+top: 600px;
+left: 350px;
+text-align: center;
+border-collapse: collapse; 
+} 
+
+table {
+position: absolute; top: 600px;; 
+border-top:3px solid darkblue; 
+text-align:center;
+-webkit-text-fill-color: darkblue;
+table-layout: fixed;
+float:center;
+height: 100px;
+}
+
+table thead{
+height: 80px;
+}
+
+table tbody{
+border-bottom:0.003px solid;
+border-top:0.003px solid ;
+-webkit-text-fill-color: black;
+left:auto;
+height: 80px;
+right:auto;
+}
+
+
+#num{
+position:absolute;
+top: 1200px;
+left: 900px;
+}
+
+#bot ul{
+text-align: center;
+}
+
+#see{
+position: absolute;
+top: 1350px;
+border-color: yellow;
+border-radius: 5px;
+}
+
+hr{
+width: 10000px;
+height: 5px;
+background-color: yellow;
+border:0;
+margin-top: 1300px;
+}
+

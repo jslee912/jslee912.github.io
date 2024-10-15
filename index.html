@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
+    <title>메인</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/content-wrap.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <div class="in_header">
+                <div class="sub-bg"></div>
+                <div class="container">
+                    <ul class="topbar">
+                        <li>
+                            <a href="#">더본코리아&nbsp; | &nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/facebook-ico.png" style="width: 20px;" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="img/insta-ico.png" style="width: 20px;" alt=""></a>
+                        </li>
+                    </ul>
+                    <div class="nav_wrap">
+                        <a href="index.html" class="logo">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                        <a href="#" class="logo_light">
+                            <img src="img/logo-2.png" alt="">
+                        </a>
+                        <div class="nav">
+                            <ul class="navbar">
+                                <li>
+                                    <a href="ceo_greeting.html">빽다방</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">CEO 인삿말</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">빽다방 소개</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">커피 이야기</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">교육 이야기</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="menu.html">메뉴</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">신 메뉴</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">커피</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">음료</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">아이스크림/디저트</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">빽스치노</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="news.html">소식</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">소식</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">이벤트</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">친절우수매장</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">커뮤니티</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">커피 클래스</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">매장안내</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="#">매장 찾기</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="longin.html">로그인/회원가입</a>
+                                </li>
+                                <li>
+                                    <a href="#">고객의소리</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                let $navbar = document.querySelector(".navbar");
+                let $subBg = document.querySelector(".sub-bg");
+                $navbar.addEventListener('mouseover', () => {
+                  $subBg.style.height = "160px";
+                });
+                $navbar.addEventListener('mouseout',()=>{
+                    $subBg.style.height = "0px";
+                })
+              </script>
+        </header> <!--Header 끝-->
+
+        <div id="content-wrap">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+                    <article >
+                        <div class="entry-content">
+                            <!--창업 버튼-->
+                            <ul class="found_btn">
+                                <li>
+                                    <a href="#">
+                                        <img src="img/presentation_btn.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="img/counsel_btn.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--창업 버튼-->
+                            <!--메인 화면-->
+                            <div class="main_visual_wrap">
+                                <div class="swiper-container">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <img src="img/main_멤버십활성화-1.jpg" alt="">
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <img src="img/빽다방_홈페이지_main_바나나라떼.jpg" alt="">     
+                                        </div>
+                                        
+                                        <div class="swiper-slide">
+                                            <img src="img/빽다방_홈페이지_main_5월_완전수박주스.jpg" alt="">
+                                        </div>
+                                        
+                                        <div class="swiper-slide">
+                                            <img src="img/빽다방_홈페이지_main_못난이생크림카스텔라.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <!-- Add Pagination -->
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                            <script>
+                                var mySwiper = new Swiper('.swiper-container', {
+                                  // 현재 페이지를 나타내는 점이 생깁니다. 클릭하면 이동합니다.
+                                  pagination: {
+                                      el: '.swiper-pagination',
+                                      type: 'bullets'
+                                      
+                                  },
+                                  // 3초마다 자동으로 슬라이드가 넘어갑니다. 1초 = 1000
+                                  autoplay: {
+                                      delay: 2000
+                                  }
+                                });
+                            </script>
+
+                            
+                            <!--메인 섹션-->
+                            <div class="main_section">
+                                <section class="main_sec01 sec_hover">
+                                    <div class="left_wrap sec_hover">
+                                        <a href="#">
+                                            <dl class>
+                                                <dt>
+                                                    PAIK`S COFFEE
+                                                    <br>
+                                                    STORY
+                                                </dt>
+                                                <dd>
+                                                    균형잡힌 바디감으로 긴 여운을 남기는 빽다방 커피를 만나보세요.
+                                                </dd>
+                                            </dl>
+                                        </a>
+                                        <a class="view_btn" href="#">
+                                        </a>
+                                    </div>
+                                    <div class="right_wrap sec_hover">
+                                        <a href="#">
+                                            <dl class>
+                                                <dt>
+                                                    PAIK`S BRAND
+                                                    <br>
+                                                    STORY
+                                                </dt>
+                                                <dd>
+                                                    합리적인 가격으로 만나는 맛있고 든든한 빵
+                                                </dd>
+                                            </dl>
+                                        </a>
+                                        <a class="view_btn" href="#">
+                                        </a>
+                                    </div>
+                                </section>
+                                <section class="main_sec02 sec_hover">
+                                    <a href="#">
+                                        <dl class="main_tt">
+                                            <dt>
+                                                FRESH<br>
+                                                COFFEE
+                                            </dt>
+                                            <dd>
+                                                신선한 뉴크롭 원두를 사용하여<br>
+                                                추출한 커피 메뉴
+                                            </dd>
+                                        </dl>
+                                        <img class="pc" src="img/main_sec2.jpg" alt="">
+                                    </a>
+                                    <a class="view_btn" href="#"></a>
+                                </section>
+                                <section class="main_sec03">
+                                    <div class="left_wrap sec_hover">
+                                        <a href="#">
+                                            <dl class="main_tt">
+                                                <dt>
+                                                    VARIOUS<br>
+                                                    BEVERAGE
+                                                </dt>
+                                                <dd>
+                                                    에이드, 티, 주스 등 취향대로<br>
+                                                    골라 먹는 즐거움!
+                                                </dd>
+                                            </dl>
+                                            <img src="img/main_sec3.jpg" alt="">
+                                        </a>
+                                        <a class="view_btn" href="#"></a>
+                                    </div>
+                                    <div class="right_wrap sec_hover">
+                                        <a href="#">
+                                            <dl class="main_tt">
+                                                <dt>
+                                                    SWEET<br>
+                                                    PAIK`S CCINO
+                                                </dt>
+                                                <dd>
+                                                    달콤 시원한 빽다방<br>
+                                                    시그니처 메뉴!
+                                                </dd>
+                                            </dl>
+                                            <img src="img/main_sec4.jpg" alt="">
+                                        </a>
+                                        <a class="view_btn" href="#"></a>
+                                    </div>
+                                </section>
+                                <div class="main_sns">
+                                    <dl class="sns_tt">
+                                        <dt>PAIK`S COFFEE SNS</dt>
+                                        <dd>
+                                            <span>#빽다방</span>
+                                            <span>#빽다방신메뉴</span>
+                                            <span>#빽다방이벤트</span>
+                                        </dd>
+                                    </dl>
+                                    <ul class="sns_icon">
+                                        <li>
+                                            <a href="#">
+                                                <img src="img/facebook-ico.png" alt="">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <img src="img/insta-ico.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+            </div>
+
+            <footer id="footer">
+                <div class="container">
+                    <div class="in_footer">
+                        <a href="#" class="logo">
+                            <img src="img/THEBORN.png" alt="">
+                        </a>
+                        <div class="company_info">
+                            <ul>
+                                <li>
+                                    (주)더본코리아
+                                </li>
+                                <li>
+                                    사업자등록번호 211-86-00870
+                                </li>
+                                <li>
+                                    대표이사 성노빈
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>주소 : 경기도 수원시 영통구 청명로 132 삼익아파트 323동 604호</li>
+                                <li>팩스 : 012-1234-5678</li>
+                            </ul>
+                            <ul>
+                                <li>본사 대표전화:02-1234-5678</li>
+                                <li>가맹상담전화:02-1234-5678</li>
+                                <li>고객센터:1234-5678</li>
+                            </ul>
+                            <p class="copyright">
+                                COPYRIGHT (c) 2018 THEBORN KOREA INC. ALL RIGHT RESERVED
+                            </p>
+                        </div>
+                        <div class="r_box">
+                            <div class="family_site" id="family_site">
+                                <span>패밀리사이트 바로가기</span>
+                            </div>
+                        </div>
+                        <div class="to_top" style="display: block;">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+    </div> <!--div wrap-->
+    
+</body>
+</html>

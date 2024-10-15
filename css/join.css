@@ -1,0 +1,722 @@
+#route {
+  background: none;
+  border-bottom: none;
+}
+#route {
+  height: 39px;
+  background: #f9f9f9;  
+  border-bottom: 1px solid #ededed; 
+}
+#route div {
+  width: 1200px;
+}
+#route div {
+  text-align: left;
+  padding: 13px 0 0 0;
+  height: 15px;
+  margin: 0 auto;
+}
+#route div span:first-child {
+  background: none;
+}
+#route div span {
+  padding: 0 8px 0 11px;
+  background: url(../image/route-arrow.png) no-repeat left 5px;
+  color: #777;
+  font-size: 11px;
+}
+#route div span a {
+  color: #777;
+}
+a{
+  text-decoration: none;
+  color: #717171;
+  outline: none;
+}
+#route div > span:first-child {
+  padding-left: 0;
+}
+#container, .container {
+  width: 1200px;
+}
+#container {
+  display: table;
+  table-layout: fixed;
+  position: relative;
+  width: 1000px; 
+  min-height: 100%;
+  margin: 0 auto;
+}
+#container > #content {
+  display: table-cell;
+  width: 100%;
+  padding: 0 0 100px;
+  vertical-align: top;
+}
+.join {
+  color: #717171;
+  font-family: Malgun Gothic,"맑은 고딕",AppleGothic,Dotum,"돋움",sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.join .top {
+  overflow: hidden;
+  padding: 10px 0; /*or: 30px*/
+  border-bottom: 1px solid #dbdbdb;
+}
+.join .top h2 {
+  float: left;
+  padding: 0 0 0 3px;
+  color: #111;
+  font-size: 24px;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.join .top > div {
+  float: right;
+  padding: 10px 0 0;
+}
+.join .join-form {
+  width: 736px;
+  margin: 0 auto;
+}
+form {
+  display: block;
+  margin-top: 0em; 
+}
+input, select {
+  outline: none;
+  font-family: Malgun Gothic,'맑은 고딕',Helvetica,AppleGothic,dotum,'돋움',sans-serif;
+  color: #717171;
+}
+input[type="hidden" i] {
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  display: none !important;
+  padding: initial;
+  border: initial;
+}
+fieldset, abbr, acronym {
+  border: 0;
+}
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  /* border-width: 2px;
+  border-style: groove;
+  border-color: rgb(192, 192, 192);
+  border-image: initial; */
+}
+caption, legend {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999px;
+}
+legend {
+  display: block;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+.join-form .tit {
+  overflow: hidden;
+  padding: 63px 0 9px;
+}
+.join-form .tit h3 {
+  float: left;
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.join-form .tit p {
+  float: right;
+  margin: 17px 0 0;
+  padding: 0 0 0 12px;
+  background: #fff url(../image/squre-4x4-red.png) no-repeat left 6px;
+  color: #999;
+  font-size: 11px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.table1 > table {
+  width: 100%;
+  border-top: 1px solid #717171;
+}
+table, th, td {
+  margin: 0;
+  padding: 0;
+  border-spacing: 0;
+  border: 0;
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+}
+colgroup {
+  display: table-column-group;
+}
+col {
+  display: table-column;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+.join .join-form .table1 > table > tbody > tr > th {
+  padding: 20px 0 0 35px;
+  color: #333;
+  font-size: 13px;
+  vertical-align: top;
+}
+.join-form .table1 table tbody th.required {
+  background: #f9f9f9 url(../image/squre-4x4-red.png) no-repeat 23px 28px;
+}
+.table1 > table > tbody > tr > th {
+  background: #f9f9f9;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 10px 16px;
+  color: #777;
+}
+.ta-l {
+  text-align: left;
+}
+.join .join-form .table1 > table > tbody > tr > td {
+  padding: 12px 20px;
+}
+.table1 > table > tbody > tr > th~td {
+  padding: 10px;
+}
+.table1 > table > tbody > tr >td {
+  border-bottom: 1px solid #dbdbdb;
+  color: #444;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.join .join-form .table1 table tbody td .txt-field {
+  position: relative;
+  width: 356px;
+}
+.txt-field {
+  position: relative;
+  width: auto;
+  height: 33px;
+  padding: 0 10px;
+  background: #fff;
+  border: 1px solid #d0d0d0;
+}
+.txt-field .text {
+  width: 100%;
+  height: 31px;
+  padding: 0;
+  border: 1px solid #fff;
+  color: #444;
+  line-height: 31px;
+}
+input.text, input.password, input.edit {
+  padding: 0 5px;
+  outline: none;
+  font-size: 12px;
+}
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: -internal-center;
+}
+input[type="password" i] {
+  -webkit-text-security: disc !important;
+  padding: 1px 2px;
+}
+.join .join-form .table1 table tbody td .txt-field .text.check-id {
+  width: 300px;
+}
+input[type="text" i] {
+  padding: 1px 2px;
+}
+.join-form .table1 table tbody td .email {
+  clear: both;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 35px;
+}
+.join-form .table1 table tbody td .email .txt-field {
+  float: left;
+  width: 226px;
+}
+.join-form .table1 table tbody td .email .choice-select {
+  float: left;
+  margin: 0 0 0 7px;
+}
+select {
+  outline: none;
+  vertical-align: top;
+  color: #717171;
+}
+select:not(:-internal-list-box) {
+  overflow: visible !important;
+}
+option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+.join .join-form .table1 table tbody td .chosen-container {
+  margin: 0;
+}
+.table1 > table tbody td .chosen-container {
+  margin: 0;
+}
+.chosen-container {
+  font-size: 12px;
+}
+.chosen-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  zoom: 1;
+  *display: inline;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.join .join-form .table1 table tbody td .chosen-container .chosen-single {
+  height: 35px;
+  line-height: 34px;
+}
+.chosen-container-single .chosen-sch {
+  height: 28px;
+  border: 1px solid #ccc;
+  line-height: 27px;
+  margin: 0 !important;
+  background: none;
+}
+.chosen-container-single .chosen-single {
+  height: 28px;
+  border: 1px solid #ccc;
+  line-height: 27px;
+  margin: 0 !important;
+  background: none;
+}
+.chosen-container-single .chosen-single {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 0 0 8px;
+  height: 28px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #444;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 27px;
+  margin: 0 !important;
+}
+.chosen-container a {
+  cursor: pointer;
+}
+.chosen-container * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.chosen-container-single .chosen-single span {
+  display: block;
+  overflow: hidden;
+  margin-right: 26px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.chosen-container-single .chosen-single div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 18px;
+  height: 100%;
+}
+.chosen-container-single .chosen-single div b {
+  background: url(../image/select-arrow-down-11x7.png) no-repeat left 50%;
+}
+.chosen-container-single .chosen-single div b {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../image/chosen-sprite.png) no-repeat 0px 4px;
+}
+b {
+  font-weight: bold;
+}
+.join .join-form .table1 table tbody td .chosen-container {
+  margin: 0;
+}
+.chosen-container .chosen-drop {
+  overflow-y: auto;
+  max-height: 400px;
+}
+.chosen-container-single .chosen-drop {
+  margin-top: -1px;
+  border-radius: 0;
+  padding: 5px 0;
+}
+.chosen-container .chosen-drop {
+  border: 1px solid #ccc;
+  border-radius: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+.chosen-container-single .chosen-drop {
+  margin-top: -1px;
+  border-radius: 0;
+  background-clip: padding-box;
+  padding: 5px 0;
+}
+.chosen-container .chosen-drop {
+  position: absolute;
+  top: 100%;
+  left: -9999px;
+  z-index: 1010;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: 0;
+  background: #fff;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+.chosen-container-single.chosen-container-single-nosearch .chosen-search {
+  position: absolute;
+  left: -9999px;
+}
+.chosen-container-single .chosen-search {
+  position: relative;
+  z-index: 1010;
+  margin: 0;
+  padding: 3px 4px;
+  white-space: nowrap;
+}
+.chosen-container-single .chosen-search input[type="text"] {
+  border: 1px solid #ccc;
+}
+.chosen-container-single .chosen-search input[type="text"] {
+  margin: 1px 0;
+  padding: 4px 20px 4px 5px;
+  width: 100%;
+  height: auto;
+  outline: 0;
+  border: 1px solid #ccc;
+  background: white url(../image/chosen-sprite.png) no-repeat 100% -20px;
+  background: url(../image/chosen-sprite.png) no-repeat 100% -20px;
+  font-size: 1em;
+  font-family: sans-serif;
+  line-height: normal;
+  border-radius: 0;
+}
+.chosen-container .chosen-results {
+  margin: 0;
+  padding: 0;
+}
+.chosen-container .chosen-results {
+  color: #444;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  max-height: 240px;
+  -webkit-overflow-scrolling: touch;
+}
+ul, ol, li {
+  list-style: none;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.chosen-container .chosen-results li.active-result {
+  display: list-item !important;
+}
+.chosen-container .chosen-results li.active-result {
+  display: list-item !important;
+  cursor: pointer;
+}
+.chosen-container .chosen-results li {
+  padding: 5px 6px !important;
+}
+.chosen-container .chosen-results li {
+  display: none;
+  margin: 0;
+  padding: 5px 6px !important;
+  list-style: none;
+  line-height: 15px;
+  word-wrap: break-word;
+  -webkit-touch-callout: none;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.join-form .table1 table tbody td div.form-element {
+  margin: 10px 0 0;
+}
+.form-element {
+  position: relative;
+}
+.form-element input {
+  position: absolute;
+  top: 2px;
+  left: 1px;
+  z-index: -1;
+}
+input.checkbox {
+  width: 13px;
+  height: 13px;
+  vertical-align: top;
+}
+input[type="checkbox" i] {
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 3px 4px;
+  padding: initial;
+  border: initial;
+}
+.form-element label {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  min-width: 20px;
+  min-height: 20px;
+  padding: 0 0 0 27px;
+  background: #fff url(../image/check-off.png) no-repeat 1px top;
+}
+label {
+  cursor: pointer;
+  vertical-align: top;
+}
+.join-form .table1 table tbody td div.form-element {
+  margin: 10px 0 0;
+}
+.join-form .table1 table tbody td .post {
+  overflow: hidden;
+}
+.join-form .table1 table tbody td .post .txt-field {
+  float: left;
+  width: 133px;
+}
+.join-form .table1 table tbody td .post .post-search {
+  float: left;
+  margin: 0 0 0 7px;
+}
+.normal-btn.small3 {
+  height: 35px;
+  background: url(../image/btn-small3-bg.png) repeat-x left top;
+  border: 1px solid #dbdbdb;
+  font-size: 12px !important;
+  line-height: 33px;
+}
+.normal-btn {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: auto;
+  padding: 0 10px !important;
+  border: 1px solid #dbdbdb;
+  color: #6c6c6c;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  font-family: Malgun Gothic,'맑은 고딕',Helvetica,AppleGothic,dotum,'돋움',sans-serif;
+}
+address, caption, cite, code, dfn, em, var {
+    font-style: normal;
+}
+.join-form .table1 table tbody td .address {
+  margin: 8px 0;
+}
+.join-form .table1 table tbody td .choice-check {
+  padding: 8px 0 7px;
+}
+.join .join-form .table1 table tbody td span.form-element {
+  display: inline-block;
+  min-height: 20px;
+  margin-right: 15px;
+}
+span.form-element {
+  display: inline-block;
+}
+input.radio {
+  width: 13px;
+  height: 13px;
+  vertical-align: top;
+}
+input[type="radio" i] {
+  background-color: initial;
+  cursor: default;
+  appearance: auto;
+  box-sizing: border-box;
+  margin: 3px 3px 0px 5px;
+  padding: initial;
+  border: initial;
+}
+.form-element label.choice {
+  background: #fff url(../image/radio-off.png) no-repeat 1px 50%;
+}
+.form-element label {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  min-width: 20px;
+  min-height: 20px;
+  padding: 0 0 0 27px;
+  background: #fff url(../image/check-off.png) no-repeat 1px top;
+}
+.join-form .table1 table tbody td .birth {
+  clear: both;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 35px;
+}
+.join-form .table1 table tbody td .birth .txt-field {
+  float: left;
+  width: 226px;
+}
+.check-cal .icon-cal {
+  position: absolute;
+  top: 10px;
+  right: 6px;
+}
+img {
+  border: none;
+  vertical-align: top;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.join .join-form .table1 table tbody td .txt-field label {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  color: #a9a9a9;
+  letter-spacing: -1px;
+  cursor: text;
+}
+.txt-field label {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  color: #444;
+  cursor: text;
+}
+.join-form .btn {
+  padding: 40px 0 0;
+}
+.join .btn {
+  padding: 40px 0 0;
+  font-size: 0;
+  text-align: center;
+}
+.join .skinbtn.point1.ja-prev, .join .skinbtn.point2.ja-next, .join .skinbtn.point1.j-cancel, .join .skinbtn.point2.j-join {
+  width: 203px;
+  height: 55px;
+  line-height: 53px;
+  font-size: 14px;
+}
+.skinbtn.point1 {
+  border: 1px solid #3e3d3c;
+  color: #3e3d3c;
+}
+.skinbtn {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  height: 40px;
+  padding: 0 5px;
+  text-align: center;
+  vertical-align: top;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 12px;
+}
+.skinbtn * {
+  font-size: 100%;
+}
+.skinbtn.point2 {
+  background: #3e3d3c;
+  border: 1px solid #3e3d3c;
+  color: #fff;
+  font-weight: bold;
+}
+.skinbtn + .skinbtn {
+  margin: 0 0 0 10px;
+}
+#container:after {
+  content: "";
+  display: block;
+  clear: both;
+}

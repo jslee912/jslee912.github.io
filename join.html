@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>빽다방_JOIN</title>
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/footer_join.css">
+  <!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+  <link rel="stylesheet" type="text/css" href="css/join.css">
+</head>
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="in_header">
+          <div class="sub-bg"></div>
+          <div class="container">
+              <ul class="topbar">
+                  <li>
+                      <a href="#">더본코리아&nbsp; | &nbsp;</a>
+                  </li>
+                  <li>
+                      <a href="#" target="_blank"><img src="img/facebook-ico.png" style="width: 20px;" alt=""></a>
+                  </li>
+                  <li>
+                      <a href="#"><img src="img/insta-ico.png" style="width: 20px;" alt=""></a>
+                  </li>
+              </ul>
+              <div class="nav_wrap">
+                  <a href="index.html" class="logo">
+                      <img src="img/logo.png" alt="">
+                  </a>
+                  <a href="#" class="logo_light">
+                      <img src="img/logo-2.png" alt="">
+                  </a>
+                  <div class="nav">
+                      <ul class="navbar">
+                          <li>
+                              <a href="ceo_greeting.html">빽다방</a>
+                              <ul class="sub-menu">
+                                  <li>
+                                      <a href="#">CEO 인삿말</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">빽다방 소개</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">커피 이야기</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">교육 이야기</a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="menu.html">메뉴</a>
+                              <ul class="sub-menu">
+                                  <li>
+                                      <a href="#">신 메뉴</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">커피</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">음료</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">아이스크림/디저트</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">빽스치노</a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="news.html">소식</a>
+                              <ul class="sub-menu">
+                                  <li>
+                                      <a href="#">소식</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">이벤트</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">친절우수매장</a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="#">커뮤니티</a>
+                              <ul class="sub-menu">
+                                  <li>
+                                      <a href="#">커피 클래스</a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="#">매장안내</a>
+                              <ul class="sub-menu">
+                                  <li>
+                                      <a href="#">매장 찾기</a>
+                                  </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="longin.html">로그인/회원가입</a>
+                          </li>
+                          <li>
+                              <a href="#">고객의소리</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <script>
+          let $navbar = document.querySelector(".navbar");
+          let $subBg = document.querySelector(".sub-bg");
+          $navbar.addEventListener('mouseover', () => {
+            $subBg.style.height = "160px";
+          });
+          $navbar.addEventListener('mouseout',()=>{
+              $subBg.style.height = "0px";
+          })
+        </script>
+  </header> <!--Header 끝-->
+    <div class="overlay"></div>
+    <!--팝업 오버레이-->
+    <div id="content-wrap">
+      <div id="route">
+        <div>
+          <span>
+            <a href="https://paikdabang.com/">Home></a>
+          </span>
+          <span>회원가입 > 정보입력</span>
+        </div>
+      </div>
+      <div id="container">
+        <div id="content">
+          <div class="join">
+            <div class="top">
+              <h2>회원가입</h2>
+            </div>
+            <div class="join-form">
+              <form id="formJoin" name="formJoin">
+                  <div class="tit">
+                    <h3>기본정보</h3>
+                    <p>표시는 반드시 입력하셔야 하는 항목입니다.</p>
+                  </div>  
+                  <div class="table1">
+                    <table>
+                      <colgroup>
+                        <col style="width: 163px;">
+                        <col>
+                      </colgroup>
+                      <tbody>
+                        <tr>
+                          <th class="ta-l required" aria-required="true">아이디</th>
+                          <td>
+                            <div class="txt-field" style="border: 1px solid rgb(208,208,208);">
+                              <input type="text" class="text" data-pattern="gdMemberId" name="memId" id="memId">
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class>
+                          <th class="ta-l required" aria-required="true">비밀번호</th>
+                          <td>
+                            <div class="txt-field">
+                              <input type="password" class="text" id="newPassword" name="memPw" autocomplete="off" placeholder>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr class>
+                          <th class="ta-l required" aria-required="true">비밀번호 확인</th>
+                          <td>
+                            <div class="txt-field">
+                              <input type="password" class="text check-id" name="memPwRe" autocomplete="off">
+                            </div>
+                          </td>
+                        </tr> 
+                        <tr>
+                          <th class="ta-l required" aria-required="true">이름</th>
+                          <td>
+                            <div class="txt-field">
+                              <input type="text" class="text" name="memNm" data-pattern="gdEngKor" value maxlength="20">
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="ta-l required">이메일</th>
+                          <td>
+                            <div class="email">
+                              <div class="txt-field">
+                                <input type="text" class="text" name="email" id="email" value>
+                              </div>
+                              <div class="choice-select">
+                                <select name="emailDomain" id="emailDomain" class="true" style="width: 120px; display: none;" tabindex="-1">
+                                  <option value="self">직접입력</option>
+                                </select>
+                                <div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 120px;"
+                                title id="emailDomain_chosen">
+                                  <a class="chosen-single chosen-sch" tabindex="-1">
+                                    <span>직접입력</span>
+                                    <div>
+                                      <b></b>
+                                    </div>
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="form-element">
+                              <input type="checkbox" class="checkbox" id="maillingFl" name="maillingFl" value="y">
+                              <label for="maillingFl" class>정보/이벤트 메일 수신에 동의합니다.</label>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="ta-l required">휴대폰번호</th>
+                          <td>
+                            <div class="txt-field" style="display: inline-block; width: 160px; border: 1px solid rgb(208, 208, 208);">
+                              <input type="text" id="cellPhone" name="cellPhone" class="text" maxlength="12" placeholder="- 없이 입력하세요."
+                              data-pattern="gdNum" value>
+                            </div>
+                            <div class="form-element">
+                              <input type="checkbox" class="checkbox" id="smsF1" name="smsF1" value="y">
+                              <label for="smsF1" class>정보/이벤트 SMS 수신에 동의합니다.</label>
+                            </div>
+                          </td>
+                        </tr> 
+                        <tr>
+                          <th class="ta-l">전화번호</th>
+                          <td>
+                            <div class="txt-field" style="display: inline-block; width: 160px;">
+                              <input type="text" id="phone" name="phone" class="text" maxlength="12" placeholder="- 없이 입력하세요."
+                              data-pattern="gdNum" value>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="ta-l required">주소</th>
+                          <td>
+                            <div class="post">
+                              <div class="txt-field" style="width: 133px;">
+                                <input type="text" class="text" name="zonecode" readonly="readonly" value>
+                                <input type="hidden" name="zipcode" value>                              
+                              </div>
+                              <button class="normal-btn small3 post-search" type="button" id="btnPostcode">
+                                <em>우편번호검색</em>
+                              </button>
+                            </div>  
+                            <div class="txt-field address">
+                              <input type="text" class="text" name="address"  readonly="readonly" value>
+                            </div>
+                            <div class="txt-field">
+                              <input type="text" class="text" name="addressSub" value>
+                            </div>
+                          </td>
+                        </tr>            
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="tit">
+                    <h3>부가 정보</h3>
+                  </div>
+                  <div class="table1 gd_member_option_table">
+                    <table>
+                      <colgroup>
+                        <col style="width: 163px;">
+                        <col>
+                      </colgroup>
+                      <tbody>
+                        <tr>
+                          <th class="ta-l required">성별</th>
+                          <td>
+                            <div class="choice-check">
+                              <span class="form-element">
+                                <input type="radio" class="radio" id="sexFlMan" name="sexFl" value="m">
+                                <label for="sexFlMan" class="choice ">남자</label>
+                              </span>
+                              <span class="form-element">
+                                <input type="radio" class="radio" id="sexFlWoman" name="sexFl" value="w">
+                                <label for="sexFlWoman" class="choice ">여자</label>
+                              </span>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="ta-l required">생일</th>
+                          <td>
+                            <div class="birth">
+                              <div class="txt-field">
+                                <div class="check-cal">
+                                  <div class="cal-form">
+                                    <input type="text" id="birthDt" name="birthDt" class="text js-datepicker" value placeholder="예시) 20150903">
+                                    <img class="icon-cal" src="img/icon-cal.png" alt="달력 아이콘">
+                                    <label for="birthDt"></label> 
+                                  </div>
+                                  <div id="birthDatePicker"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th class="ta-l">추천인 아이디</th>
+                          <td>
+                            <div class="txt-field">
+                              <input type="text" id="recommId" name="recommId" class="text" value>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!--회원가입/정보 부가정보-->
+                </fieldset>
+                <div class="btn">
+                  <button type="button" class="skinbtn point1 j-cancel" id="btnCancel">
+                    <em>취소</em>
+                  </button>
+                  <button type="button" class="skinbtn point2 j-join btn-join" value="회원가입">
+                    <em>회원가입</em>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- ::after -->
+      </div>
+      <!--END #content-wrap-->
+    </div>
+    <footer id="footer">
+      <div class="container">
+          <div class="in_footer">
+              <a href="#" class="logo">
+                  <img src="img/THEBORN.png" alt="">
+              </a>
+              <div class="company_info">
+                  <ul>
+                      <li>
+                          (주)더본코리아
+                      </li>
+                      <li>
+                          사업자등록번호 211-86-00870
+                      </li>
+                      <li>
+                          대표이사 성노빈
+                      </li>
+                  </ul>
+                  <ul>
+                      <li>주소 : 경기도 수원시 영통구 청명로 132 삼익아파트 323동 604호</li>
+                      <li>팩스 : 012-1234-5678</li>
+                  </ul>
+                  <ul>
+                      <li>본사 대표전화:02-1234-5678</li>
+                      <li>가맹상담전화:02-1234-5678</li>
+                      <li>고객센터:1234-5678</li>
+                  </ul>
+                  <p class="copyright">
+                      COPYRIGHT (c) 2018 THEBORN KOREA INC. ALL RIGHT RESERVED
+                  </p>
+              </div>
+              <div class="r_box">
+                  <div class="family_site" id="family_site">
+                      <span>패밀리사이트 바로가기</span>
+                  </div>
+              </div>
+              <div class="to_top" style="display: block;">
+                  <span></span>
+              </div>
+          </div>
+      </div>
+  </footer>
+  </div>
+</body>
+</html>

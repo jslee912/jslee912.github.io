@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1920px;
+    margin: auto;
+    font-family: 'Montserrat','Noto Sans KR',AppleGothic,sans-serif;
+    font-size: 100%;
+    color: #202020;
+    line-height: 1;
+    position: relative;
+   
+}
+ol, ul {
+	list-style: none;
+}
+p, ul, figure {
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+img {
+	max-width: 100%;
+    vertical-align: middle;
+}
+button, textarea, input, select {
+	font-family: inherit;
+	color: inherit;
+	padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+dd{
+    margin-inline-start: 40px;
+}
+
+button {
+	border:0;
+	cursor:pointer;
+}
+div{
+    display: block;
+}
